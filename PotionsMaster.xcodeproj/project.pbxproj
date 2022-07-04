@@ -15,6 +15,7 @@
 		F49D9FF12872D8CD00E38015 /* IngredientMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D9FF02872D8CD00E38015 /* IngredientMock.swift */; };
 		F49D9FF428730D1E00E38015 /* IngredientRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D9FF328730D1E00E38015 /* IngredientRow.swift */; };
 		F49D9FF6287386B400E38015 /* IngredientFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D9FF5287386B400E38015 /* IngredientFormView.swift */; };
+		F49D9FF828738A7700E38015 /* IngredientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D9FF728738A7700E38015 /* IngredientListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		F49D9FF02872D8CD00E38015 /* IngredientMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientMock.swift; sourceTree = "<group>"; };
 		F49D9FF328730D1E00E38015 /* IngredientRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientRow.swift; sourceTree = "<group>"; };
 		F49D9FF5287386B400E38015 /* IngredientFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientFormView.swift; sourceTree = "<group>"; };
+		F49D9FF728738A7700E38015 /* IngredientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				F49D9FF328730D1E00E38015 /* IngredientRow.swift */,
 				F49D9FF5287386B400E38015 /* IngredientFormView.swift */,
+				F49D9FF728738A7700E38015 /* IngredientListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				F49D9FE22872D79900E38015 /* ContentView.swift in Sources */,
 				F49D9FE02872D79900E38015 /* PotionsMasterApp.swift in Sources */,
 				F49D9FF12872D8CD00E38015 /* IngredientMock.swift in Sources */,
+				F49D9FF828738A7700E38015 /* IngredientListView.swift in Sources */,
 				F49D9FEF2872D83A00E38015 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
