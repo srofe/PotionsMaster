@@ -11,6 +11,7 @@
 		F49D9FE22872D79900E38015 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D9FE12872D79900E38015 /* ContentView.swift */; };
 		F49D9FE42872D79A00E38015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D9FE32872D79A00E38015 /* Assets.xcassets */; };
 		F49D9FE72872D79A00E38015 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49D9FE62872D79A00E38015 /* Preview Assets.xcassets */; };
+		F49D9FEF2872D83A00E38015 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49D9FEE2872D83900E38015 /* Ingredient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F49D9FE12872D79900E38015 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F49D9FE32872D79A00E38015 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49D9FE62872D79A00E38015 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F49D9FEE2872D83900E38015 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F49D9FDE2872D79900E38015 /* PotionsMaster */ = {
 			isa = PBXGroup;
 			children = (
+				F49D9FED2872D81C00E38015 /* Models */,
 				F49D9FDF2872D79900E38015 /* PotionsMasterApp.swift */,
 				F49D9FE12872D79900E38015 /* ContentView.swift */,
 				F49D9FE32872D79A00E38015 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				F49D9FE62872D79A00E38015 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F49D9FED2872D81C00E38015 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F49D9FEE2872D83900E38015 /* Ingredient.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				F49D9FE22872D79900E38015 /* ContentView.swift in Sources */,
 				F49D9FE02872D79900E38015 /* PotionsMasterApp.swift in Sources */,
+				F49D9FEF2872D83A00E38015 /* Ingredient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
